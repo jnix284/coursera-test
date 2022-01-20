@@ -3,6 +3,8 @@
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   margin-bottom: 15px;
@@ -10,8 +12,13 @@ h1 {
   margin-right:  auto;
   font-size:  175%;
   color: #242424;
+  text-align: center;
 }
-
+div#container-fluid {
+  background-color: #FFF;
+  position: relative;
+  top: 60px;
+}
 h2 {
   font-size: 125%;
   color:  #fff;
@@ -20,19 +27,27 @@ h2 {
 
 #sectiontitle1 {
   background-color: #40c1bb;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 #sectiontitle2 {
   background-color: #c14046
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 #sectiontitle3 {
   background-color: #7a40c1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 p {
   width: 90%;
-  margin-right: auto;
-  margin-left: auto;
   color: #ffffff;
   border: 1px solid #000;
+  padding: 10px;
 }
 #p1 {
   background-color: #242424;
