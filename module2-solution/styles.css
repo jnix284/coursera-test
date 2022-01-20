@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/********** Base Style **********/
+/********** basic page styles **********/
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -17,15 +17,16 @@ h1 {
   color: #FFF;
   text-align: center;
 }
+/*control the positioning of the sections on the page*/
 .section {
   background-color: #242424;
   top: 30px;
   border: 1px solid #000;
   position: relative;
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
-
+/*style for all section titles*/
 h2 {
   font-size: 125%;
   text-align: center;
@@ -37,6 +38,7 @@ h2 {
   padding: 5px 20px 5px 20px;
 }
 
+/*control the location of the section titles*/
 #sectiontitle1 {
   background-color: #40c1bb;
   position: absolute;
@@ -58,20 +60,12 @@ h2 {
   right: 0;
 
 }
+/*style for section text*/
 p {
   color: #ffffff;
   background-color: #242424;
   padding: 50px 20px 20px 20px;
 }
-#p1 {
-}
-#p2 {
-
-}
-#p3 {
-
-}
-
 
 /* Simple Responsive Framework */
 .row {
