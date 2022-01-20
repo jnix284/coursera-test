@@ -2,15 +2,43 @@
 /********** Base Style **********/
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
   margin-bottom: 15px;
+  font-size:  175%;
+  color: #242424;
 }
 
+h2 {
+  font-size: 125%;
+  color:  #fff;
+  border: 1px solid #000;
+}
+
+#sectiontitle1 {
+  background-color: #40c1bb;
+}
+#sectiontitle2 {
+  background-color: #c14046
+}
+#sectiontitle3 {
+  background-color: #7a40c1;
+}
 p {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
+  color: #ffffff;
+  border: 1px solid #000;
+}
+#p1 {
+  background-color: #242424;
+}
+#p2 {
+  background-color: #242424;
+}
+#p3 {
   background-color: #242424;
 }
 
