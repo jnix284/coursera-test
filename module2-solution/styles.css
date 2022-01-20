@@ -6,57 +6,70 @@
   margin: 0;
   padding: 0;
 }
+body{
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #3d3d3d;
+}
 h1 {
-  margin-bottom: 15px;
-  margin-left:  auto;
-  margin-right:  auto;
+  margin: 25px;
   font-size:  175%;
-  color: #242424;
+  color: #FFF;
   text-align: center;
 }
-div#container-fluid {
-  background-color: #FFF;
+.container-fluid {
+  background-color: #242424;
+  top: 30px;
+  border: 1px solid #000;
   position: relative;
-  top: 60px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
+
 h2 {
   font-size: 125%;
+  text-align: center;
   color:  #fff;
   border: 1px solid #000;
+  position: relative;
+  margin-top: 0px;
+  width: 150px;
+  padding: 5px 20px 5px 20px;
 }
 
 #sectiontitle1 {
   background-color: #40c1bb;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
+
 }
 #sectiontitle2 {
-  background-color: #c14046
+  background-color: #c14046;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
+
 }
 #sectiontitle3 {
   background-color: #7a40c1;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
+
 }
 p {
-  width: 90%;
   color: #ffffff;
-  border: 1px solid #000;
-  padding: 10px;
+  background-color: #242424;
+  padding: 50px 20px 20px 20px;
 }
 #p1 {
-  background-color: #242424;
 }
 #p2 {
-  background-color: #242424;
+
 }
 #p3 {
-  background-color: #242424;
+
 }
 
 
@@ -64,6 +77,7 @@ p {
 .row {
   width: 100%;
 }
+
 
 /********** desktop view at 992 and above **********/
 @media (min-width: 992px) {
